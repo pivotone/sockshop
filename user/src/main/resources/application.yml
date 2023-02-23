@@ -1,0 +1,11 @@
+server:
+  port: 5876
+spring:
+  application:
+    name: user
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 39.104.112.98:8848
+        username: nacos
+        password: nacos
